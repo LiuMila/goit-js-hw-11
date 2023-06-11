@@ -1,0 +1,21 @@
+li.gallery-item
+  a.photo-card( href=largeImageURL)
+      .img-thumb
+        img.card-img( src=webformatURL alt=tags loading="lazy")
+      .info
+        p.info-item
+          b Likes 
+          .
+            #{likes}
+        p.info-item
+          b Views 
+          .
+            #{views}
+        p.info-item
+          b Comments 
+          .
+            #{comments}
+        p.info-item
+          b Downloads 
+          .
+            #{downloads}
